@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class appleEat {
     static class FenwickTree {
         int[] bit;
         int n;

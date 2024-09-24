@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class facebook {
     static class Post {
         int likes;
         int comments;
