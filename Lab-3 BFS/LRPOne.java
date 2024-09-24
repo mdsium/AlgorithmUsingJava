@@ -23,7 +23,8 @@ public class LRPOne{
             j=sn.next().charAt(0);
             k=sn.next().charAt(0);
             matrix[(int) j-65] [(int)k-65]=matrix [(int)k-65] [(int)j-65]=1;
-            
+            //An undirected edge has both ways access between the nodes.
+            //If A to B has a way to go then B to A has the same way.
         }
     }
 }
