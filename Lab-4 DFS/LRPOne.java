@@ -7,7 +7,7 @@ public class LRPOne {
     static int [] checked=new int[20];
     static int [] stk=new int[20];
     static int top=0;
-    public static void main(string[] args){
+    public static void main(String[] args){
         int i,n,f=0;
         push(7);
         while (top!=0) {
@@ -20,10 +20,25 @@ public class LRPOne {
                     break;
                 }
             }
-            if (f==0) {
+            if (f==0) 
                 pop();
             }
             
         }
+        static int notChecked(int n){
+            if(checked[n]==1)
+            return 0;
+            return 1;
+        }
+        static int pop(){
+            top--;
+            return stk[top];
+        }
+        static void push(int n){
+            checked[n]=1;
+            System.err.println(c[n]+"");
+            stk[top]=n;
+            top++;
+        }
     }
-}
+
