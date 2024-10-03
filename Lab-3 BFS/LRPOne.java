@@ -12,7 +12,6 @@ public class LRPOne{
             }
             System.out.println("");
         }
-
     }
     static void Inmatrix(int e){
         Scanner sn=new Scanner(System.in);

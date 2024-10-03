@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class LRPTwo {
     static char[] c={'A','B','C','D','E','F','G','S'};
@@ -8,7 +8,7 @@ public class LRPTwo {
     static int [] que=new int [20];
     static int first=0,last=0;
     public static void main (String[] args){
-        int i,j,n;
+        int i,n;
         enq(7);
         while (first<last) {
             n=dq();
